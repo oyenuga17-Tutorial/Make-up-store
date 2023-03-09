@@ -409,13 +409,13 @@ svg {
   flex-direction: column;
 }
 .shop-product-title {
-  height: 10vh;
+  
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .shop-products {
-  height: 106vh;
+  padding-block:10rem;
 }
 
 .shop-products h1 {
@@ -833,9 +833,7 @@ svg {
     margin-top: 30px;
   }
 
-  .shop-products {
-    height: 86vh;
-  }
+  
 
   .lipstick-collection {
     height: 50vh;
@@ -956,9 +954,7 @@ svg {
 }
 
 @media ((min-width: 10em) and (max-width:25em)) {
-  .shop-products {
-    height: 210vh;
-  }
+
 
   .meet-experts-wrapper {
     height: 90vh;
